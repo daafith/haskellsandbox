@@ -1,3 +1,3 @@
 module FizzBuzz where
 
-fizzbuzz xs = ["1","2"]
+fizzbuzz xs = [show x | x <- xs]
