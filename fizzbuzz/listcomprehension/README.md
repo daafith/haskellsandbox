@@ -16,7 +16,7 @@ The desired output is:
 "98","Fizz","Buzz"
 ```
 
-I assumed I needed to implement the restriction `1 to 100` as a closed interval `[1,100]`. Follow the commits if you want to see the TDD approach.
+I assumed I needed to implement the restriction `1 to 100` as a closed interval `[1,100]`. Follow the commits if you want to see the TDD approach. I only skipped the TPP on the filtering because I was lazy.
 
 ## Run fizzbuzz
 Use the [GHCi](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html) to load the module and run the fizzbuzz
