@@ -19,3 +19,10 @@ allFromOneThroughOneHundred = ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","
                                "Fizz","52","53","Fizz","Buzz","56","Fizz","58","59","FizzBuzz","61","62","Fizz","64","Buzz","Fizz","67","68",
                                "Fizz","Buzz","71","Fizz","73","74","FizzBuzz","76","77","Fizz","79","Buzz","Fizz","82","83","Fizz","Buzz","86",
                                "Fizz","88","89","FizzBuzz","91","92","Fizz","94","Buzz","Fizz","97","98","Fizz","Buzz"]
+
+run = runTestTT tests
+
+tests = TestList [TestLabel "it returns two number" returnTwoNumbers]
+
+returnTwoNumbers = TestCase (assertEqual "for (fizzbuzz [1,2])," ["1","2"] (fizzbuzz [1,2]))
+
