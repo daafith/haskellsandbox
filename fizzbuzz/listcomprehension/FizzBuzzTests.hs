@@ -22,7 +22,9 @@ allFromOneThroughOneHundred = ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","
 
 run = runTestTT tests
 
-tests = TestList [TestLabel "it returns two number" returnTwoNumbers]
+tests = TestList [TestLabel "it returns two number" returnTwoNumbers,
+                  TestLabel "it returns two other numbers" returnTwoOtherNumbers]
 
 returnTwoNumbers = TestCase (assertEqual "for (fizzbuzz [1,2])," ["1","2"] (fizzbuzz [1,2]))
+returnTwoOtherNumbers = TestCase (assertEqual "for (fizzbuzz [4,7])," ["4","7"] (fizzbuzz [4,7]))
 
