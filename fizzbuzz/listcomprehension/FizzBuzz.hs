@@ -1,5 +1,6 @@
 module FizzBuzz where
 
+run = fizzbuzz [1..100]
 -- This can probably be refactored but at this moment I don't know how to encapsulate the functions 
 -- or definitions that would come from refactoring
 fizzbuzz numbers = [if number `mod` 3 == 0 && number `mod` 5 == 0 then "FizzBuzz"
