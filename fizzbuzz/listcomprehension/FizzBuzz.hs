@@ -1,5 +1,5 @@
 module FizzBuzz where
 
 fizzbuzz numbers = [if number `mod` 3 == 0 then "Fizz"
-                    else if number == 5 then "Buzz"
+                    else if number `mod` 5 == 0 then "Buzz"
                     else show number | number <- numbers]
