@@ -23,7 +23,7 @@ Use the [GHCi](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/gh
 ```
 $ ghci
 Prelude> :l FizzBuzz.hs
-*Main> fizzbuzz [1..100]
+*FizzBuzz> fizzbuzz [1..100]
 ```
 
 
