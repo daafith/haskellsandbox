@@ -30,7 +30,7 @@ tests = TestList [TestLabel "it returns two number" returnTwoNumbers,
                   TestLabel "it returns buzz on ten" returnBuzzOnTen,
                   TestLabel "it returns fizzbuzz on fifteen" returnFizzBuzzOnFifteen,
                   TestLabel "it returns fizzbuzz on thirty" returnFizzBuzzOnThirty,
-                  TestLabel "it returns all filtering lower bound >=0" returnAllFromOneThroughOneHundredFilteringLowerBound]
+                  TestLabel "it returns all filtering lower bound >=1" returnAllFromOneThroughOneHundredFilteringLowerBound]
 
 returnTwoNumbers = TestCase (assertEqual "for (fizzbuzz [1,2])," ["1","2"] (fizzbuzz [1,2]))
 returnTwoOtherNumbers = TestCase (assertEqual "for (fizzbuzz [4,7])," ["4","7"] (fizzbuzz [4,7]))
