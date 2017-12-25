@@ -24,8 +24,10 @@ run = runTestTT tests
 
 tests = TestList [TestLabel "it returns two number" returnTwoNumbers,
                   TestLabel "it returns two other numbers" returnTwoOtherNumbers,
-                  TestLabel "it returns fizz on three" returnFizzOnThree]
+                  TestLabel "it returns fizz on three" returnFizzOnThree,
+                  TestLabel "it returns fizz on six" returnFizzOnSix]
 
 returnTwoNumbers = TestCase (assertEqual "for (fizzbuzz [1,2])," ["1","2"] (fizzbuzz [1,2]))
 returnTwoOtherNumbers = TestCase (assertEqual "for (fizzbuzz [4,7])," ["4","7"] (fizzbuzz [4,7]))
 returnFizzOnThree = TestCase (assertEqual "for (fizzbuzz [3])," ["Fizz"] (fizzbuzz [3]))
+returnFizzOnSix = TestCase (assertEqual "for (fizzbuzz [6])," ["Fizz"] (fizzbuzz [6]))
