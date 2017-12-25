@@ -1,3 +1,3 @@
 module FizzBuzz where
 
-fizzbuzz xs = [show x | x <- xs]
+fizzbuzz numbers = [show number | number <- numbers]
