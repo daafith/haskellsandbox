@@ -8,5 +8,7 @@ $ ghci
 Prelude> :l EleganceOfHaskell.hs
 *Main> multiplicationTableOneThroughTen
 ...
+*Main> multiplicationTableOfAPositiveRangeLimitedToMultiplicationByTen [1..20]
+...
 *Main> multiplicationTableOfAnyPositiveRange [1..20]
 ```
