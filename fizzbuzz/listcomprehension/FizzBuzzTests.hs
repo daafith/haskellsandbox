@@ -22,7 +22,7 @@ allFromOneThroughOneHundred = ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","
 
 run = runTestTT tests
 
-tests = TestList [TestLabel "it returns two number" returnTwoNumbers,
+tests = TestList [TestLabel "it returns two numbers" returnTwoNumbers,
                   TestLabel "it returns fizz on six" returnFizzOnSix,
                   TestLabel "it returns buzz on ten" returnBuzzOnTen,
                   TestLabel "it returns fizzbuzz on thirty" returnFizzBuzzOnThirty,
