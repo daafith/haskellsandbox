@@ -6,5 +6,7 @@ Use the [GHCi](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/gh
 ```
 $ ghci
 Prelude> :l EleganceOfHaskell.hs
-*FizzBuzz> multiplicationTableOneThroughTen
+*Main> multiplicationTableOneThroughTen
+...
+*Main> multiplicationTableOfAnyPositiveRange [1..20]
 ```
