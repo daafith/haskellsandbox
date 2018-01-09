@@ -39,3 +39,5 @@ Prelude> :l FizzBuzzTests.hs
 *Main> run
 ...
 ```
+
+If you encounter an error saying `Could not find module 'Test.HUnit'` then exit ghci with `:quit`. Open a shell / command prompt and enter `cabal install hunit` and wait for the installation to finish. Now try running the test.
