@@ -9,6 +9,7 @@ multiplicationTableOfAPositiveRangeLimitedToMultiplicationByTen range = [x*y | x
 multiplicationTableOfAnyPositiveRange :: [Integer] -> [Integer]
 multiplicationTableOfAnyPositiveRange range = [x*y | x <- range, y <- range, x >= 1 && y >= 1]
 
+elegance :: IO ()
 elegance = putStrLn "\nLet's take a simple multiplication table of 1 through 10\n\
       \In Java you'd have to do some nasty nesting, for instance:\n\n\
 	  \public void multiplicationTableOneThroughTen() {\n\
@@ -21,7 +22,7 @@ elegance = putStrLn "\nLet's take a simple multiplication table of 1 through 10\
 	  \In Haskell we simply write something like this:\n\n\
 	  \multiplicationTableOneThroughTen = [x*y | x <- [1..10], y <- [1..10]]\n\n\
 	  \Easy does it! To see the output, type multiplicationTableOneThroughTen and press Enter.\n\n\
-	   \|-----------------|\n\n\
+	  \|-----------------|\n\n\
 	  \Let's assume we want a function that multiplies any positive range as a multiplication table but limited to multiplication by 10.\
 	  \We simply replace one [1..10] with range and enforce the condition.\n\n\
 	  \multiplicationTableOfAPositiveRangeLimitedToMultiplicationByTen range = [x*y | x <- range, y <- [1..10], x >= 1]\n\n\
@@ -41,4 +42,4 @@ elegance = putStrLn "\nLet's take a simple multiplication table of 1 through 10\
 	  \multiplicationTableOfAnyPositiveRange [130..55]\n\
 	  \multiplicationTableOfAnyPositiveRange [25..-90]\n\n\
 	  \To see the output, type multiplicationTableOfAnyPositiveRange [-1..12] and press Enter.\n\n\
-	  \Now try implementing these last two methods in Java (handling each exception) find out that Haskell is more elegant."
+	  \Now try implementing these last two methods in Java (handling each exception) to find out that Haskell is more elegant."
