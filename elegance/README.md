@@ -6,9 +6,12 @@ Use the [GHCi](http://downloads.haskell.org/~ghc/latest/docs/html/users_guide/gh
 ```
 $ ghci
 Prelude> :l EleganceOfHaskell.hs
-*Main> multiplicationTableOneThroughTen
 ...
-*Main> multiplicationTableOfAPositiveRangeLimitedToMultiplicationByTen [1..20]
+*Elegance> elegance
 ...
-*Main> multiplicationTableOfAnyPositiveRange [1..20]
+*Elegance> multiplicationTableOneThroughTen
+...
+*Elegance> multiplicationTableOfAPositiveRangeLimitedToMultiplicationByTen [-1..20]
+...
+*Elegance> multiplicationTableOfAnyPositiveRange [-1..20]
 ```
