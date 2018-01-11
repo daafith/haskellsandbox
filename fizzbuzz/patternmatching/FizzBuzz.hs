@@ -1,5 +1,6 @@
 module FizzBuzzPatternMatching where
 
+main :: [[Char]]
 main = [fizzbuzz x | x <- [1..100]]
       where fizzbuzz number
              | number `isMultipleOf` [3, 5] = "FizzBuzz"
