@@ -20,6 +20,7 @@ The desired output is:
 ```
 
 [An implementation using list comprehension](https://github.com/daafith/haskellsandbox/tree/master/fizzbuzz/listcomprehension)
+
 [An implementation using pattern matching](https://github.com/daafith/haskellsandbox/tree/master/fizzbuzz/patternmatching)
 
 ## Elegance
